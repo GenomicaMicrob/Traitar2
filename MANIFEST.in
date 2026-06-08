@@ -1,0 +1,6 @@
+include README.md
+include config.json
+recursive-include src/data *
+recursive-include src *
+recursive-exclude src *.pyc
+recursive-exclude src *.swp

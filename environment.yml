@@ -1,0 +1,23 @@
+name: traitar2
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.6
+  - pandas
+  - matplotlib
+  - numpy
+  - scipy
+  - hmmer
+  - prodigal
+  - parallel
+  - r-base
+  - r-dplyr
+  - r-tidyr
+  - r-getoptlong
+  - r-rcolorbrewer
+  - bioconductor-complexheatmap
+  - pip
+  - pip:
+    - .
